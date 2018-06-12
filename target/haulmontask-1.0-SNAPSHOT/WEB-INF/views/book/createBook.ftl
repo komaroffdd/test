@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="Book" action="/book/add" method="post">
+    <p>Book title</p>
+    <input title="bookTitle" type="text" name="bookTitle">
+    <p>Author_id</p>
+    <input title="author_id" type="text" name="author_id">
+    <p>Genre_id</p>
+    <input title="genre_id" type="text" name="genre_id">
+    <p>Publisher</p>
+    <input title="publisher" type="text" name="publisher">
+    <p>Year</p>
+    <input title="year" type="text" name="year">
+    <p>City</p>
+    <input title="city" type="text" name="city">
+    <input type="submit" value="OK">
+</body>
+</html>
