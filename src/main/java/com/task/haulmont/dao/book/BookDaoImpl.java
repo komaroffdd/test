@@ -14,12 +14,17 @@ public class BookDaoImpl implements BookDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
+//    public List<Book> findAll() {
+//        String sql = "SELECT book.book_title,author.first_name,author.last_name," +
+//                "author.patronymic," +
+//                "book.publisher,book.year,book.city " +
+//                "FROM book INNER JOIN author on book.author_id=author.id";
+//        return jdbcTemplate.query(sql, new BookMapper());
+//    }
+
     public List<Book> findAll() {
-        String sql = "SELECT book.book_title,author.first_name,author.last_name," +
-                "author.patronymic," +
-                "book.publisher,book.year,book.city " +
-                "FROM book INNER JOIN author on book.author_id=author.id";
-        return jdbcTemplate.query(sql, new BookMapper());
+        String sql = "SELECT * FROM book";
+        return jdbcTemplate.query(sql,new BookMapper());
     }
 
     public List<Book> findBookByAuthor(Author author) {

@@ -26,6 +26,6 @@
 </table>
 
 <br>
-<a href="/users">Back</a>
+<a href="/author/list">Back</a>
 </body>
 </html>

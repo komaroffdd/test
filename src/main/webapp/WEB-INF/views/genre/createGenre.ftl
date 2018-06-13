@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-
+<form name="genre" action="/genre/add" method="post">
+    <p>Genre</p>
+    <input title="genre" type="text" name="genre">
+    <input type="submit" value="OK">
+</form>
 </body>
 </html>

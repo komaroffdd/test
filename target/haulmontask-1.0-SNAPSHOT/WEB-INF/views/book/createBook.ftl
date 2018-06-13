@@ -6,18 +6,19 @@
 </head>
 <body>
 <form name="Book" action="/book/add" method="post">
-    <p>Book title</p>
+    <p>Book title|</p>
     <input title="bookTitle" type="text" name="bookTitle">
-    <p>Author_id</p>
-    <input title="author_id" type="text" name="author_id">
-    <p>Genre_id</p>
+    <p>Author_id|</p>
+    <input title="author_id" type=text name="author_id">
+    <p>Genre_id|</p>
     <input title="genre_id" type="text" name="genre_id">
-    <p>Publisher</p>
+    <p>Publisher|</p>
     <input title="publisher" type="text" name="publisher">
-    <p>Year</p>
-    <input title="year" type="text" name="year">
+    <p>Year|</p>
+    <input title="year" type="date" name="year">
     <p>City</p>
     <input title="city" type="text" name="city">
-    <input type="submit" value="OK">
+    <input style="margin-top: 10px" type="submit" value="OK">
+</form>
 </body>
 </html>

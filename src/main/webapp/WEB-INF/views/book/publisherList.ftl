@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <body>
+<form name="piblisher" action="/book/publisher/${book.publisher}" method="get">
+    <input title="publisher" type="text">
+</form>
 <h1>Books list</h1>
 <table>
     <tr>
@@ -15,7 +18,7 @@
         <td>Year|</td>
         <td>City|</td>
     </tr>
-<#list books as book>
+<#list publisher as book>
     <tr>
         <td>${book.id}</td>
         <td>${book.bookName}|</td>
@@ -24,13 +27,12 @@
         <td>${book.publisher}|</td>
         <td>${book.year}|</td>
         <td>${book.city}|</td>
-        <td><a href="/book/delete/${book.id}">Delete</a></td>
-        <td><a href="/book/update/${book.id}">Update</a></td>
     </tr>
 
 </#list>
 </table>
-<a href="/book/add">Create Book</a>
+<a href="/book/list">List Book</a>
 <br/>
 <a href="/">Start page</a></body>
+</body>
 </html>

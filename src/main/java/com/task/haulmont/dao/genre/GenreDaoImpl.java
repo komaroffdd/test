@@ -14,7 +14,7 @@ public class GenreDaoImpl implements GenreDao {
     private JdbcTemplate jdbcTemplate;
 
     public List<Genre> findAll() {
-        String sql = "SELECT genre FROM genre";
+        String sql = "SELECT * FROM genre";
         return jdbcTemplate.query(sql, new GenreMapper());
     }
 

@@ -1,5 +1,6 @@
 package com.task.haulmont.controller;
 
+import com.task.haulmont.entity.Author;
 import com.task.haulmont.entity.Book;
 import com.task.haulmont.service.book.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,21 @@ public class BookController {
     public String updateAuthor(@ModelAttribute("book") Book book) {
         bookService.update(book);
         return "redirect:/book/list";
+    }
+    @GetMapping("/publisher/{publisher}")
+    public String findByPublisher(@PathVariable("publisher") String publisher, Model model){
+        model.addAttribute("publisher",bookService.findBookByPublisher(publisher));
+        return "book/publisherList";
+    }
+    @GetMapping("/bookNameList/{bookName}")
+    public String findByBookName(@PathVariable("bookName") String bookName, Model model){
+        model.addAttribute("bookName",bookService.findBookByName(bookName));
+        return "/book/bookNameList";
+    }
+    @GetMapping("/{author}")
+    public String findByAuthor(@PathVariable("author") Author author, Model model){
+        model.addAttribute("bookName",bookService.findBookByAuthor(author));
+        return "/book/bookAuthorList";
     }
 
     @GetMapping("/delete/{id}")
