@@ -6,45 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a72ac11-ac91-46cf-9102-e524b348c736" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/error.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/bookNameList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/AuthorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/dao/book/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/entity/Genre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/task/haulmont/service/author/AuthorServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/createAuthor.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/author/showAuthor.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/book/publisherList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/AuthorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/dao/book/BookDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/entity/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/AuthorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/dao/book/BookDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Author.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Author.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Genre.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/entity/Genre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/classes/com/task/haulmont/service/author/AuthorServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/showAuthor.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/haulmontask-1.0-SNAPSHOT/WEB-INF/views/author/showAuthor.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="3a72ac11-ac91-46cf-9102-e524b348c736" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -311,7 +273,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -824,12 +786,12 @@
       <workItem from="1528957899752" duration="287000" />
       <workItem from="1528958219679" duration="2977000" />
       <workItem from="1528961597796" duration="739000" />
-      <workItem from="1528966025948" duration="4910000" />
+      <workItem from="1528966025948" duration="5293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60397000" />
+    <option name="totallyTimeSpent" value="60780000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -842,7 +804,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32838285" />
@@ -854,7 +815,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32838285" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.01980198" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.01980198" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Designer" order="2" />
