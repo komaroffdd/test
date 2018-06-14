@@ -1,14 +1,22 @@
 package com.task.haulmont.entity;
 
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 public class Book {
     private Long id;
+
+    @NotNull
     private String bookName;
+    @NotNull
     private Integer author_id;
+    @NotNull
     private Integer genre_id;
+    @NotNull
     private String publisher;
+    @NotNull
     private Date year;
+    @NotNull
     private String city;
 
 //    public Book(String bookName, Integer author_id, Integer genre_id) {

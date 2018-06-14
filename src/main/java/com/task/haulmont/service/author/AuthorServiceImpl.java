@@ -1,5 +1,6 @@
 package com.task.haulmont.service.author;
 
+import com.task.haulmont.dao.author.AuthorDao;
 import com.task.haulmont.dao.author.AuthorDaoImpl;
 import com.task.haulmont.entity.Author;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,7 +11,7 @@ import java.util.List;
 @Service
 public class AuthorServiceImpl implements AuthorService {
     @Autowired
-    private AuthorDaoImpl authorDao;
+    private AuthorDao authorDao;
 
 
     public List<Author> findAll() {

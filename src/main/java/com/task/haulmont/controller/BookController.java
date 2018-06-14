@@ -47,11 +47,11 @@ public class BookController {
         model.addAttribute("bookName",bookService.findBookByName(bookName));
         return "/book/bookNameList";
     }
-    @GetMapping("/{author}")
-    public String findByAuthor(@PathVariable("author") Author author, Model model){
-        model.addAttribute("bookName",bookService.findBookByAuthor(author));
-        return "/book/bookAuthorList";
-    }
+//    @GetMapping("/{author}")
+//    public String findByAuthor(@PathVariable("author") Author author, Model model){
+//        model.addAttribute("bookName",bookService.findBookByAuthor(author));
+//        return "/book/bookAuthorList";
+//    }
 
     @GetMapping("/delete/{id}")
     public String delete(@PathVariable("id") Long id) {

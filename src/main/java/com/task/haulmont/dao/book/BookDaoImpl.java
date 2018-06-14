@@ -22,15 +22,19 @@ public class BookDaoImpl implements BookDao {
 //        return jdbcTemplate.query(sql, new BookMapper());
 //    }
 
+    public void save(Book book) {
+        String sql = "INSERT INTO book (book_title, author_id, genre_id, publisher, year, city) VALUE (?,?,?,?,?,?)";
+        jdbcTemplate.update(sql, book.getBookName(), book.getAuthor(), book.getGenre_id(),
+                book.getPublisher(), book.getYear(), book.getCity());
+    }
+
     public List<Book> findAll() {
         String sql = "SELECT * FROM book";
         return jdbcTemplate.query(sql,new BookMapper());
     }
 
     public List<Book> findBookByAuthor(Author author) {
-        String sql = "SELECT book.book_title,author.first_name,author.last_name," +
-                "author.patronymic," +
-                "book.publisher,book.year,book.city " +
+        String sql = "SELECT book.book_title,book.author_id,book.genre_id, book.publisher,book.year,book.city " +
                 "FROM book INNER JOIN author on book.author_id=author.id " +
                 "WHERE author.id= ?";
         return jdbcTemplate.query(sql, new BookMapper(), author.getId());
@@ -52,12 +56,6 @@ public class BookDaoImpl implements BookDao {
                 "FROM book INNER JOIN author on book.author_id=author.id " +
                 "WHERE book.publisher=?";
         return jdbcTemplate.query(sql, new BookMapper(), publisher);
-    }
-
-    public void save(Book book) {
-        String sql = "INSERT INTO book (book_title, author_id, genre_id, publisher, year, city) VALUE (?,?,?,?,?,?)";
-        jdbcTemplate.update(sql, book.getBookName(), book.getAuthor(), book.getGenre_id(),
-                book.getPublisher(), book.getYear(), book.getCity());
     }
 
     public void update(Book book) {

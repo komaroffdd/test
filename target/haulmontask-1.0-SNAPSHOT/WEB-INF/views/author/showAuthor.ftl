@@ -8,10 +8,6 @@
 <h1>Author info</h1>
 <table>
     <tr>
-        <td>Id</td>
-        <td>${author.id}</td>
-    </tr>
-    <tr>
         <td>Author name</td>
         <td>${author.firstName}</td>
     </tr>

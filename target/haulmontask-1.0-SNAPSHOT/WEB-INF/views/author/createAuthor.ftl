@@ -14,5 +14,6 @@
     <input title="patronymic" type="text" name="patronymic">
     <input type="submit" value="OK">
 </form>
+<a href="/author/list">Author List</a>
 </body>
 </html>
