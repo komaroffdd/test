@@ -18,7 +18,7 @@ public class AuthorServiceImpl implements AuthorService {
         return authorDao.findAll();
     }
 
-    public void save(Author author) throws Exception {
+    public void save(Author author)  {
         authorDao.save(author);
     }
 

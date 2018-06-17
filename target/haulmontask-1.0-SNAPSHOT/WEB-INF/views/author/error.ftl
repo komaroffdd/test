@@ -6,6 +6,6 @@
 </head>
 <body style="background: #dc001a">
 <h1>Error form</h1>
-<p><a href="/author/add">Re-enter the data</a></p>
+<p style="font-size: 32px;"><a href="/author/add">Re-enter the data</a></p>
 </body>
 </html>

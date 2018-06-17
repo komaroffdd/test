@@ -10,5 +10,6 @@
     <input title="genre" type="text" name="genre">
     <input type="submit" value="OK">
 </form>
+<a style="margin-top: 10px" href="/genre/list">Genre List</a>
 </body>
 </html>

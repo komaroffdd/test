@@ -5,8 +5,8 @@
     <title>Title</title>
 </head>
 <body>
-<form name="bookName" action="/book/bookNameList/${book.bookName}" method="get">
-    <input title="bookName" type="text">
+<form name="book_title" action="/book/bookNameList/${book.book_title}" method="post">
+    <input title="book_title" type="text">
 </form>
 <h1>Books list</h1>
 <table>
@@ -15,17 +15,17 @@
         <td>Author id|</td>
         <td>Genre id|</td>
         <td>Publisher|</td>
-        <td>Year|</td>
+        <#--<td>Year|</td>-->
         <td>City|</td>
     </tr>
-<#list bookName as book>
+<#list book_title as book>
     <tr>
         <td>${book.id}</td>
-        <td>${book.bookName}|</td>
+        <td>${book.book_title}|</td>
         <td><a href="/author/${book.author_id}"></a>${book.author_id}</a></td>
         <td>|${book.genre_id}|</td>
         <td>${book.publisher}|</td>
-        <td>${book.year}|</td>
+        <#--<td>${book.year}|</td>-->
         <td>${book.city}|</td>
     </tr>
 

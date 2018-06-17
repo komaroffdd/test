@@ -17,6 +17,10 @@ public class BookServiceImpl implements BookService{
         return bookDao.findAll();
     }
 
+    public List<Book> countBook(String genre) {
+        return bookDao.countBook(genre);
+    }
+
     public List<Book> findBookByAuthor(Author author) {
         return bookDao.findBookByAuthor(author);
     }

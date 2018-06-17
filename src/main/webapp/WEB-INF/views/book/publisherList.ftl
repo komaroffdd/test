@@ -21,11 +21,11 @@
 <#list publisher as book>
     <tr>
         <td>${book.id}</td>
-        <td>${book.bookName}|</td>
+        <td>${book.book_title}|</td>
         <td><a href="/author/${book.author_id}"></a>${book.author_id}</a></td>
         <td>|${book.genre_id}|</td>
         <td>${book.publisher}|</td>
-        <td>${book.year}|</td>
+        <#--<td>${book.year}|</td>-->
         <td>${book.city}|</td>
     </tr>
 

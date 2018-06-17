@@ -15,7 +15,7 @@
     </tr>
 <#list authors as author>
     <tr>
-        <td>${author.id}</td>
+        <td><a href="/author/${author.id}">${author.id}</a></td>
         <td>${author.firstName}</td>
         <td>${author.lastName}</td>
         <td>${author.patronymic}</td>
